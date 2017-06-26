@@ -1,0 +1,8 @@
+Notas:
+
+
+El TC1121CUA fue declarado obsoleto por Microchip:
+https://www.digikey.com/product-detail/en/microchip-technology/TC1121CUA/TC1121CUA-ND/267387
+
+Se debe escoger otro inversor de voltage, por ejemplo:
+https://www.digikey.com/products/en/integrated-circuits-ics/pmic-voltage-regulators-dc-dc-switching-regulators/739?k=&pkeyword=&pv1989=0&pv110=945&pv1779=471&pv1429=16&pv129=75&FV=ffe002e3&mnonly=0&newproducts=0&ColumnSort=0&page=1&quantity=0&ptm=0&fid=0&pageSize=25 
