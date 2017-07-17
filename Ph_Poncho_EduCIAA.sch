@@ -2,33 +2,7 @@ EESchema Schematic File Version 2
 LIBS:edu-ciaa-nxp
 LIBS:power
 LIBS:device
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
 LIBS:contrib
-LIBS:valves
 LIBS:ej2cese
 LIBS:TC1121COA
 LIBS:Ph_Poncho_EduCIAA-cache
@@ -37,14 +11,14 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title "Poncho_Ph"
+Title "Poncho_Ph. Licencia Creative Commons"
 Date "2017-05-05"
-Rev "1.0"
+Rev "1.0."
 Comp "CESE"
-Comment1 "Juan Carlos Suárez Barón"
-Comment2 ""
-Comment3 ""
-Comment4 ""
+Comment1 " Mg. Ing Eduardo Filomena"
+Comment2 "Revisión a cargo de: "
+Comment3 "Curso de Diseño de Circuitos Impresos"
+Comment4 "Autor: Juan Carlos Suárez Barón"
 $EndDescr
 $Comp
 L CA3140 U2
@@ -58,7 +32,7 @@ F 4 "CA3140AEZ-ND " H 3800 3950 60  0001 C CNN "Digikey#"
 F 5 "Value" H 3800 3950 60  0001 C CNN "LibPart"
 F 6 "Intersil" H 3800 3950 60  0001 C CNN "Manf"
 F 7 "CA3140AEZ " H 3800 3950 60  0001 C CNN "Manf#"
-F 8 "Value" H 3800 3950 60  0001 C CNN "Mouser#"
+F 8 "968-CA3140AEZ" H 3800 3950 60  0001 C CNN "Mouser#"
 	1    3800 3950
 	1    0    0    -1  
 $EndComp
@@ -74,7 +48,7 @@ F 4 "296-7203-5-ND" H 5750 3850 60  0001 C CNN "Digikey#"
 F 5 "Value" H 5750 3850 60  0001 C CNN "LibPart"
 F 6 "Texas Instruments" H 5750 3850 60  0001 C CNN "Manf"
 F 7 "TL081CP " H 5750 3850 60  0001 C CNN "Manf#"
-F 8 "Value" H 5750 3850 60  0001 C CNN "Mouser#"
+F 8 "595-TL081CP" H 5750 3850 60  0001 C CNN "Mouser#"
 	1    5750 3850
 	1    0    0    -1  
 $EndComp
@@ -90,7 +64,7 @@ F 4 "A32244-ND " H 1450 3500 60  0001 C CNN "Digikey#"
 F 5 "Value" H 1450 3500 60  0001 C CNN "LibPart"
 F 6 "TE Connectivity AMP Connectors" H 1450 3500 60  0001 C CNN "Manf"
 F 7 "5227161-1 " H 1450 3500 60  0001 C CNN "Manf#"
-F 8 "Value" H 1450 3500 60  0001 C CNN "Mouser#"
+F 8 "571-5227161-1 " H 1450 3500 60  0001 C CNN "Mouser#"
 	1    1450 3500
 	0    -1   -1   0   
 $EndComp
@@ -101,29 +75,13 @@ P 9550 1950
 F 0 "XA1" H 9850 2350 60  0000 C CNN
 F 1 "Conn_Poncho2P_2x_20x2" H 9900 250 60  0000 C CNN
 F 2 "Ph_Poncho:Conn_Poncho_Derecha" H 9550 1950 60  0001 C CNN
-F 3 "" H 9550 1950 60  0000 C CNN
-F 4 "Value" H 9550 1950 60  0001 C CNN "Digikey#"
+F 3 "https://cdn.harwin.com/pdfs/C029XX_M50_and_M52_Series_Connectors.pdf" H 9550 1950 60  0001 C CNN
+F 4 "952-1387-ND " H 9550 1950 60  0001 C CNN "Digikey#"
 F 5 "Value" H 9550 1950 60  0001 C CNN "LibPart"
-F 6 "Value" H 9550 1950 60  0001 C CNN "Manf"
-F 7 "Value" H 9550 1950 60  0001 C CNN "Manf#"
-F 8 "Value" H 9550 1950 60  0001 C CNN "Mouser#"
+F 6 "Harwin Inc." H 9550 1950 60  0001 C CNN "Manf"
+F 7 "M50-3502042 " H 9550 1950 60  0001 C CNN "Manf#"
+F 8 "855-M50-3502042 " H 9550 1950 60  0001 C CNN "Mouser#"
 	1    9550 1950
-	1    0    0    -1  
-$EndComp
-$Comp
-L CP1 C5
-U 1 1 590CA578
-P 2800 1750
-F 0 "C5" H 2825 1850 50  0000 L CNN
-F 1 "100uF" H 2825 1650 50  0000 L CNN
-F 2 "Ph_Poncho:CP_Elec_6.3x4.5" H 2800 1750 50  0001 C CNN
-F 3 "" H 2800 1750 50  0000 C CNN
-F 4 "Value" H 2800 1750 60  0001 C CNN "Digikey#"
-F 5 "Value" H 2800 1750 60  0001 C CNN "LibPart"
-F 6 "Value" H 2800 1750 60  0001 C CNN "Manf"
-F 7 "Value" H 2800 1750 60  0001 C CNN "Manf#"
-F 8 "Value" H 2800 1750 60  0001 C CNN "Mouser#"
-	1    2800 1750
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -157,9 +115,10 @@ F 1 "100uF" H 875 1400 50  0000 L CNN
 F 2 "Ph_Poncho:CP_Elec_6.3x4.5" H 850 1500 50  0001 C CNN
 F 3 "http://nichicon-us.com/english/products/pdfs/e-uwt.pdf" H 850 1500 50  0001 C CNN
 F 4 "493-2203-1-ND " H 850 1500 60  0001 C CNN "Digikey#"
-F 5 "Nichicon" H 850 1500 60  0001 C CNN "Manf"
-F 6 "UWT1V101MCL1GS " H 850 1500 60  0001 C CNN "Manf#"
-F 7 "Value" H 850 1500 60  0001 C CNN "Mouser#"
+F 5 "Value" H 850 1500 60  0001 C CNN "LibPart"
+F 6 "Nichicon" H 850 1500 60  0001 C CNN "Manf"
+F 7 "UWT1V101MCL1GS " H 850 1500 60  0001 C CNN "Manf#"
+F 8 "UWT1V101MCL1GS " H 850 1500 60  0001 C CNN "Mouser#"
 	1    850  1500
 	1    0    0    -1  
 $EndComp
@@ -226,41 +185,7 @@ NoConn ~ 10500 2850
 NoConn ~ 10500 2750
 NoConn ~ 10500 2650
 NoConn ~ 10500 2550
-$Comp
-L Led_Small D1
-U 1 1 590CBE7F
-P 9750 4150
-F 0 "D1" H 9700 4275 50  0000 L CNN
-F 1 "Led_Small" H 9575 4050 50  0000 L CNN
-F 2 "Ph_Poncho:LED_1206" V 9750 4150 50  0001 C CNN
-F 3 "" V 9750 4150 50  0000 C CNN
-F 4 "Value" H 9750 4150 60  0001 C CNN "Digikey#"
-F 5 "Value" H 9750 4150 60  0001 C CNN "LibPart"
-F 6 "Value" H 9750 4150 60  0001 C CNN "Manf"
-F 7 "Value" H 9750 4150 60  0001 C CNN "Manf#"
-F 8 "Value" H 9750 4150 60  0001 C CNN "Mouser#"
-	1    9750 4150
-	-1   0    0    1   
-$EndComp
-$Comp
-L R_Small R7
-U 1 1 590CBFA0
-P 9250 4150
-F 0 "R7" H 9280 4170 50  0000 L CNN
-F 1 "1K" H 9280 4110 50  0000 L CNN
-F 2 "Ph_Poncho:R_1206_HandSoldering" H 9250 4150 50  0001 C CNN
-F 3 "" H 9250 4150 50  0000 C CNN
-F 4 "Value" H 9250 4150 60  0001 C CNN "Digikey#"
-F 5 "Value" H 9250 4150 60  0001 C CNN "LibPart"
-F 6 "Value" H 9250 4150 60  0001 C CNN "Manf"
-F 7 "Value" H 9250 4150 60  0001 C CNN "Manf#"
-F 8 "Value" H 9250 4150 60  0001 C CNN "Mouser#"
-	1    9250 4150
-	0    -1   -1   0   
-$EndComp
-NoConn ~ 4100 4050
 NoConn ~ 4100 3850
-NoConn ~ 4100 3750
 Text Notes 1050 750  0    60   ~ 0
 FUENTE DE VOLTAJE NEGATIVO
 Text Notes 1150 7450 0    60   ~ 0
@@ -283,12 +208,12 @@ P 2050 3500
 F 0 "R1" V 2130 3500 50  0000 C CNN
 F 1 "4.7M" V 2050 3500 50  0000 C CNN
 F 2 "Ph_Poncho:R_1206_HandSoldering" V 1980 3500 50  0001 C CNN
-F 3 "" H 2050 3500 50  0000 C CNN
-F 4 "Value" H 2050 3500 60  0001 C CNN "Digikey#"
+F 3 "http://www.mouser.com/ds/2/447/PYu-RC1206_51_RoHS_L-4-349080.pdf" H 2050 3500 50  0001 C CNN
+F 4 "311-4.7MERCT-ND " H 2050 3500 60  0001 C CNN "Digikey#"
 F 5 "Value" H 2050 3500 60  0001 C CNN "LibPart"
-F 6 "Value" H 2050 3500 60  0001 C CNN "Manf"
-F 7 "Value" H 2050 3500 60  0001 C CNN "Manf#"
-F 8 "Value" H 2050 3500 60  0001 C CNN "Mouser#"
+F 6 "Yageo" H 2050 3500 60  0001 C CNN "Manf"
+F 7 "RC1206JR-074M7L " H 2050 3500 60  0001 C CNN "Manf#"
+F 8 "603-RC1206JR-074M7L " H 2050 3500 60  0001 C CNN "Mouser#"
 	1    2050 3500
 	0    1    1    0   
 $EndComp
@@ -310,12 +235,12 @@ P 2150 5050
 F 0 "C2" H 2175 5150 50  0000 L CNN
 F 1 "10uF" H 2175 4950 50  0000 L CNN
 F 2 "Ph_Poncho:C_1206_HandSoldering" H 2188 4900 50  0001 C CNN
-F 3 "" H 2150 5050 50  0000 C CNN
-F 4 "Value" H 2150 5050 60  0001 C CNN "Digikey#"
+F 3 "http://www.mouser.com/ds/2/212/KEM_C1002_X7R_SMD-1102033.pdf" H 2150 5050 50  0001 C CNN
+F 4 "399-9309-2-ND" H 2150 5050 60  0001 C CNN "Digikey#"
 F 5 "Value" H 2150 5050 60  0001 C CNN "LibPart"
-F 6 "Value" H 2150 5050 60  0001 C CNN "Manf"
-F 7 "Value" H 2150 5050 60  0001 C CNN "Manf#"
-F 8 "Value" H 2150 5050 60  0001 C CNN "Mouser#"
+F 6 "KEMET" H 2150 5050 60  0001 C CNN "Manf"
+F 7 "C1206C106J4RACTU" H 2150 5050 60  0001 C CNN "Manf#"
+F 8 "80-C1206C106J4R " H 2150 5050 60  0001 C CNN "Mouser#"
 	1    2150 5050
 	1    0    0    -1  
 $EndComp
@@ -326,11 +251,11 @@ P 2550 5050
 F 0 "C4" H 2575 5150 50  0000 L CNN
 F 1 "100nF" H 2575 4950 50  0000 L CNN
 F 2 "Ph_Poncho:C_1206_HandSoldering" H 2588 4900 50  0001 C CNN
-F 3 "" H 2550 5050 50  0000 C CNN
-F 4 "Value" H 2550 5050 60  0001 C CNN "Digikey#"
+F 3 "http://datasheets.avx.com/cx5r.pdf" H 2550 5050 50  0001 C CNN
+F 4 "478-1129-1-ND" H 2550 5050 60  0001 C CNN "Digikey#"
 F 5 "Value" H 2550 5050 60  0001 C CNN "LibPart"
-F 6 "Value" H 2550 5050 60  0001 C CNN "Manf"
-F 7 "Value" H 2550 5050 60  0001 C CNN "Manf#"
+F 6 "AVX Corporation" H 2550 5050 60  0001 C CNN "Manf"
+F 7 "http://datasheets.avx.com/cx5r.pdf" H 2550 5050 60  0001 C CNN "Manf#"
 F 8 "Value" H 2550 5050 60  0001 C CNN "Mouser#"
 	1    2550 5050
 	1    0    0    -1  
@@ -347,22 +272,6 @@ F 3 "" H 2350 5500 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C8
-U 1 1 590CDC24
-P 3700 4950
-F 0 "C8" H 3725 5050 50  0000 L CNN
-F 1 "1uF" H 3725 4850 50  0000 L CNN
-F 2 "Ph_Poncho:C_1206_HandSoldering" H 3738 4800 50  0001 C CNN
-F 3 "" H 3700 4950 50  0000 C CNN
-F 4 "Value" H 3700 4950 60  0001 C CNN "Digikey#"
-F 5 "Value" H 3700 4950 60  0001 C CNN "LibPart"
-F 6 "Value" H 3700 4950 60  0001 C CNN "Manf"
-F 7 "Value" H 3700 4950 60  0001 C CNN "Manf#"
-F 8 "Value" H 3700 4950 60  0001 C CNN "Mouser#"
-	1    3700 4950
-	0    -1   -1   0   
-$EndComp
-$Comp
 L C C6
 U 1 1 590CE1B8
 P 3300 3150
@@ -370,11 +279,11 @@ F 0 "C6" H 3325 3250 50  0000 L CNN
 F 1 "10nF" H 3325 3050 50  0000 L CNN
 F 2 "Ph_Poncho:C_1206_HandSoldering" H 3338 3000 50  0001 C CNN
 F 3 "" H 3300 3150 50  0000 C CNN
-F 4 "Value" H 3300 3150 60  0001 C CNN "Digikey#"
+F 4 "490-1754-2-ND" H 3300 3150 60  0001 C CNN "Digikey#"
 F 5 "Value" H 3300 3150 60  0001 C CNN "LibPart"
-F 6 "Value" H 3300 3150 60  0001 C CNN "Manf"
-F 7 "Value" H 3300 3150 60  0001 C CNN "Manf#"
-F 8 "Value" H 3300 3150 60  0001 C CNN "Mouser#"
+F 6 "Murata Electronics" H 3300 3150 60  0001 C CNN "Manf"
+F 7 "GRM3195C1H103JA01D" H 3300 3150 60  0001 C CNN "Manf#"
+F 8 "81-GRM3195C1H103JA01 " H 3300 3150 60  0001 C CNN "Mouser#"
 	1    3300 3150
 	1    0    0    -1  
 $EndComp
@@ -385,12 +294,12 @@ P 3700 3150
 F 0 "C7" H 3725 3250 50  0000 L CNN
 F 1 "100uF" H 3725 3050 50  0000 L CNN
 F 2 "Ph_Poncho:C_1206_HandSoldering" H 3738 3000 50  0001 C CNN
-F 3 "" H 3700 3150 50  0000 C CNN
-F 4 "Value" H 3700 3150 60  0001 C CNN "Digikey#"
+F 3 "http://www.mouser.com/ds/2/281/GRM31CR60J107KE39-01-1065044.pdf" H 3700 3150 50  0001 C CNN
+F 4 "490-13982-1-ND" H 3700 3150 60  0001 C CNN "Digikey#"
 F 5 "Value" H 3700 3150 60  0001 C CNN "LibPart"
-F 6 "Value" H 3700 3150 60  0001 C CNN "Manf"
-F 7 "Value" H 3700 3150 60  0001 C CNN "Manf#"
-F 8 "Value" H 3700 3150 60  0001 C CNN "Mouser#"
+F 6 "Murata Electronics North America" H 3700 3150 60  0001 C CNN "Manf"
+F 7 "GRM31CR60J107KE39L" H 3700 3150 60  0001 C CNN "Manf#"
+F 8 "81-GRM31CR60J107KE9L" H 3700 3150 60  0001 C CNN "Mouser#"
 	1    3700 3150
 	1    0    0    -1  
 $EndComp
@@ -424,11 +333,11 @@ F 0 "C3" H 2475 3850 50  0000 L CNN
 F 1 "2.2nF" H 2475 3650 50  0000 L CNN
 F 2 "Ph_Poncho:C_1206_HandSoldering" H 2488 3600 50  0001 C CNN
 F 3 "" H 2450 3750 50  0000 C CNN
-F 4 "Value" H 2450 3750 60  0001 C CNN "Digikey#"
+F 4 "12063A222JAT2A-ND" H 2450 3750 60  0001 C CNN "Digikey#"
 F 5 "Value" H 2450 3750 60  0001 C CNN "LibPart"
-F 6 "Value" H 2450 3750 60  0001 C CNN "Manf"
-F 7 "Value" H 2450 3750 60  0001 C CNN "Manf#"
-F 8 "Value" H 2450 3750 60  0001 C CNN "Mouser#"
+F 6 "AVX Corporation" H 2450 3750 60  0001 C CNN "Manf"
+F 7 "12063A222JAT2A" H 2450 3750 60  0001 C CNN "Manf#"
+F 8 "581-12063A222JAT2" H 2450 3750 60  0001 C CNN "Mouser#"
 	1    2450 3750
 	1    0    0    -1  
 $EndComp
@@ -441,38 +350,6 @@ F 1 "GNDA" H 2450 3900 50  0000 C CNN
 F 2 "" H 2450 4050 50  0000 C CNN
 F 3 "" H 2450 4050 50  0000 C CNN
 	1    2450 4050
-	1    0    0    -1  
-$EndComp
-$Comp
-L C C9
-U 1 1 590CF6D6
-P 5250 2800
-F 0 "C9" H 5275 2900 50  0000 L CNN
-F 1 "10nF" H 5275 2700 50  0000 L CNN
-F 2 "Ph_Poncho:C_1206_HandSoldering" H 5288 2650 50  0001 C CNN
-F 3 "" H 5250 2800 50  0000 C CNN
-F 4 "Value" H 5250 2800 60  0001 C CNN "Digikey#"
-F 5 "Value" H 5250 2800 60  0001 C CNN "LibPart"
-F 6 "Value" H 5250 2800 60  0001 C CNN "Manf"
-F 7 "Value" H 5250 2800 60  0001 C CNN "Manf#"
-F 8 "Value" H 5250 2800 60  0001 C CNN "Mouser#"
-	1    5250 2800
-	1    0    0    -1  
-$EndComp
-$Comp
-L C C10
-U 1 1 590CF6E1
-P 5650 2800
-F 0 "C10" H 5675 2900 50  0000 L CNN
-F 1 "100uF" H 5675 2700 50  0000 L CNN
-F 2 "Ph_Poncho:C_1206_HandSoldering" H 5688 2650 50  0001 C CNN
-F 3 "" H 5650 2800 50  0000 C CNN
-F 4 "Value" H 5650 2800 60  0001 C CNN "Digikey#"
-F 5 "Value" H 5650 2800 60  0001 C CNN "LibPart"
-F 6 "Value" H 5650 2800 60  0001 C CNN "Manf"
-F 7 "Value" H 5650 2800 60  0001 C CNN "Manf#"
-F 8 "Value" H 5650 2800 60  0001 C CNN "Mouser#"
-	1    5650 2800
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -504,12 +381,12 @@ P 4850 3950
 F 0 "R4" V 4930 3950 50  0000 C CNN
 F 1 "30K" V 4850 3950 50  0000 C CNN
 F 2 "Ph_Poncho:R_1206_HandSoldering" V 4780 3950 50  0001 C CNN
-F 3 "" H 4850 3950 50  0000 C CNN
-F 4 "Value" H 4850 3950 60  0001 C CNN "Digikey#"
+F 3 "http://www.mouser.com/ds/2/447/PYu-RC1206_51_RoHS_L-4-349080.pdf" H 4850 3950 50  0001 C CNN
+F 4 "311-30KERCT-ND " H 4850 3950 60  0001 C CNN "Digikey#"
 F 5 "Value" H 4850 3950 60  0001 C CNN "LibPart"
-F 6 "Value" H 4850 3950 60  0001 C CNN "Manf"
-F 7 "Value" H 4850 3950 60  0001 C CNN "Manf#"
-F 8 "Value" H 4850 3950 60  0001 C CNN "Mouser#"
+F 6 "Yageo" H 4850 3950 60  0001 C CNN "Manf"
+F 7 " RC1206JR-0730KL " H 4850 3950 60  0001 C CNN "Manf#"
+F 8 "603-RC1206JR-0730KL " H 4850 3950 60  0001 C CNN "Mouser#"
 	1    4850 3950
 	0    1    1    0   
 $EndComp
@@ -518,32 +395,32 @@ L R R3
 U 1 1 590CFD0B
 P 4300 5350
 F 0 "R3" V 4380 5350 50  0000 C CNN
-F 1 "2.2K" V 4300 5350 50  0000 C CNN
+F 1 "3.3K" V 4300 5350 50  0000 C CNN
 F 2 "Ph_Poncho:R_1206_HandSoldering" V 4230 5350 50  0001 C CNN
-F 3 "" H 4300 5350 50  0000 C CNN
-F 4 "Value" H 4300 5350 60  0001 C CNN "Digikey#"
+F 3 "http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_7.pdf" H 4300 5350 50  0001 C CNN
+F 4 "311-3.3KERTR-ND" H 4300 5350 60  0001 C CNN "Digikey#"
 F 5 "Value" H 4300 5350 60  0001 C CNN "LibPart"
-F 6 "Value" H 4300 5350 60  0001 C CNN "Manf"
-F 7 "Value" H 4300 5350 60  0001 C CNN "Manf#"
-F 8 "Value" H 4300 5350 60  0001 C CNN "Mouser#"
+F 6 "Yageo" H 4300 5350 60  0001 C CNN "Manf"
+F 7 "RC1206JR-073K3L" H 4300 5350 60  0001 C CNN "Manf#"
+F 8 "603-RC1206JR-073K3L" H 4300 5350 60  0001 C CNN "Mouser#"
 	1    4300 5350
 	1    0    0    -1  
 $EndComp
 $Comp
 L POT RV1
 U 1 1 590D02D0
-P 4300 5800
-F 0 "RV1" H 4300 5720 50  0000 C CNN
-F 1 "POT" H 4300 5800 50  0000 C CNN
-F 2 "Ph_Poncho:Potentiometer_Trimmer_Bourns_3296Y" H 4300 5800 50  0001 C CNN
-F 3 "" H 4300 5800 50  0000 C CNN
-F 4 "PTD902-2015K-A503-ND" H 4300 5800 60  0001 C CNN "Digikey#"
-F 5 "Value" H 4300 5800 60  0001 C CNN "LibPart"
-F 6 "Value" H 4300 5800 60  0001 C CNN "Manf"
-F 7 "Value" H 4300 5800 60  0001 C CNN "Manf#"
-F 8 "Value" H 4300 5800 60  0001 C CNN "Mouser#"
-	1    4300 5800
-	0    -1   -1   0   
+P 4400 3750
+F 0 "RV1" H 4400 3670 50  0000 C CNN
+F 1 "POT" H 4400 3750 50  0000 C CNN
+F 2 "Ph_Poncho:Potentiometer_Trimmer_Bourns_3296Y" H 4400 3750 50  0001 C CNN
+F 3 "http://sensing.honeywell.com/index.php?ci_id=151834" H 4400 3750 50  0001 C CNN
+F 4 "39255K-ND" H 4400 3750 60  0001 C CNN "Digikey#"
+F 5 "Value" H 4400 3750 60  0001 C CNN "LibPart"
+F 6 "Honeywell Sensing and Productivity Solutions" H 4400 3750 60  0001 C CNN "Manf"
+F 7 "39255K" H 4400 3750 60  0001 C CNN "Manf#"
+F 8 "Value" H 4400 3750 60  0001 C CNN "Mouser#"
+	1    4400 3750
+	1    0    0    -1  
 $EndComp
 $Comp
 L R R2
@@ -552,11 +429,11 @@ P 3800 6150
 F 0 "R2" V 3880 6150 50  0000 C CNN
 F 1 "1K" V 3800 6150 50  0000 C CNN
 F 2 "Ph_Poncho:R_1206_HandSoldering" V 3730 6150 50  0001 C CNN
-F 3 "" H 3800 6150 50  0000 C CNN
-F 4 "Value" H 3800 6150 60  0001 C CNN "Digikey#"
+F 3 "http://www.mouser.com/ds/2/447/PYu-RC0402_51_RoHS_L_6_r-8721.pdf" H 3800 6150 50  0001 C CNN
+F 4 "311-1.0KJRCT-ND " H 3800 6150 60  0001 C CNN "Digikey#"
 F 5 "Value" H 3800 6150 60  0001 C CNN "LibPart"
-F 6 "Value" H 3800 6150 60  0001 C CNN "Manf"
-F 7 "Value" H 3800 6150 60  0001 C CNN "Manf#"
+F 6 "Yageo" H 3800 6150 60  0001 C CNN "Manf"
+F 7 "RC0402JR-071KL " H 3800 6150 60  0001 C CNN "Manf#"
 F 8 "Value" H 3800 6150 60  0001 C CNN "Mouser#"
 	1    3800 6150
 	0    1    1    0   
@@ -583,66 +460,23 @@ F 3 "" H 5350 3600 50  0000 C CNN
 	1    5350 3600
 	-1   0    0    1   
 $EndComp
-$Comp
-L R R6
-U 1 1 590D1965
-P 6100 3400
-F 0 "R6" V 6180 3400 50  0000 C CNN
-F 1 "30K" V 6100 3400 50  0000 C CNN
-F 2 "Ph_Poncho:R_1206_HandSoldering" V 6030 3400 50  0001 C CNN
-F 3 "" H 6100 3400 50  0000 C CNN
-F 4 "Value" H 6100 3400 60  0001 C CNN "Digikey#"
-F 5 "Value" H 6100 3400 60  0001 C CNN "LibPart"
-F 6 "Value" H 6100 3400 60  0001 C CNN "Manf"
-F 7 "Value" H 6100 3400 60  0001 C CNN "Manf#"
-F 8 "Value" H 6100 3400 60  0001 C CNN "Mouser#"
-	1    6100 3400
-	0    1    1    0   
-$EndComp
 Text Label 8900 2050 0    60   ~ 0
 ADC3
 Text Label 6550 3400 0    60   ~ 0
 ADC3
 $Comp
-L C C11
-U 1 1 590D2057
-P 5650 4850
-F 0 "C11" H 5675 4950 50  0000 L CNN
-F 1 "10nF" H 5675 4750 50  0000 L CNN
-F 2 "Ph_Poncho:C_1206_HandSoldering" H 5688 4700 50  0001 C CNN
-F 3 "" H 5650 4850 50  0000 C CNN
-F 4 "Value" H 5650 4850 60  0001 C CNN "Digikey#"
-F 5 "Value" H 5650 4850 60  0001 C CNN "LibPart"
-F 6 "Value" H 5650 4850 60  0001 C CNN "Manf"
-F 7 "Value" H 5650 4850 60  0001 C CNN "Manf#"
-F 8 "Value" H 5650 4850 60  0001 C CNN "Mouser#"
-	1    5650 4850
-	1    0    0    -1  
-$EndComp
-$Comp
-L C C12
-U 1 1 590D2171
-P 6050 4850
-F 0 "C12" H 6075 4950 50  0000 L CNN
-F 1 "100uF" H 6075 4750 50  0000 L CNN
-F 2 "Ph_Poncho:C_1206_HandSoldering" H 6088 4700 50  0001 C CNN
-F 3 "" H 6050 4850 50  0000 C CNN
-F 4 "Value" H 6050 4850 60  0001 C CNN "Digikey#"
-F 5 "Value" H 6050 4850 60  0001 C CNN "LibPart"
-F 6 "Value" H 6050 4850 60  0001 C CNN "Manf"
-F 7 "Value" H 6050 4850 60  0001 C CNN "Manf#"
-F 8 "Value" H 6050 4850 60  0001 C CNN "Mouser#"
-	1    6050 4850
-	1    0    0    -1  
-$EndComp
-$Comp
 L R R5
 U 1 1 590D29FA
 P 5150 4200
 F 0 "R5" V 5230 4200 50  0000 C CNN
-F 1 "R" V 5150 4200 50  0000 C CNN
+F 1 "75K" V 5150 4200 50  0000 C CNN
 F 2 "Ph_Poncho:R_1206_HandSoldering" V 5080 4200 50  0001 C CNN
-F 3 "" H 5150 4200 50  0000 C CNN
+F 3 "http://www.mouser.com/ds/2/447/PYu-RC1206_51_RoHS_L-4-349080.pdf" H 5150 4200 50  0001 C CNN
+F 4 "311-75KERCT-ND" H 5150 4200 60  0001 C CNN "Digikey#"
+F 5 "Value" H 5150 4200 60  0001 C CNN "LibPart"
+F 6 "Yageo" H 5150 4200 60  0001 C CNN "Manf"
+F 7 "RC1206JR-0775KL" H 5150 4200 60  0001 C CNN "Manf#"
+F 8 "03-RC1206JR-0775KL" H 5150 4200 60  0001 C CNN "Mouser#"
 	1    5150 4200
 	1    0    0    -1  
 $EndComp
@@ -796,30 +630,14 @@ P 10950 2700
 F 0 "D2" H 10900 2825 50  0000 L CNN
 F 1 "Led_Small" H 10775 2600 50  0000 L CNN
 F 2 "Ph_Poncho:LED_1206" V 10950 2700 50  0001 C CNN
-F 3 "" V 10950 2700 50  0000 C CNN
-F 4 "Value" H 10950 2700 60  0001 C CNN "Digikey#"
+F 3 "http://www.osram-os.com/Graphics/XPic9/00078860_0.pdf" V 10950 2700 50  0001 C CNN
+F 4 "475-1410-2-ND" H 10950 2700 60  0001 C CNN "Digikey#"
 F 5 "Value" H 10950 2700 60  0001 C CNN "LibPart"
-F 6 "Value" H 10950 2700 60  0001 C CNN "Manf"
-F 7 "Value" H 10950 2700 60  0001 C CNN "Manf#"
+F 6 "OSRAM" H 10950 2700 60  0001 C CNN "Manf"
+F 7 "LG R971-KN-1" H 10950 2700 60  0001 C CNN "Manf#"
 F 8 "Value" H 10950 2700 60  0001 C CNN "Mouser#"
 	1    10950 2700
 	0    -1   -1   0   
-$EndComp
-$Comp
-L R_Small R8
-U 1 1 592E4631
-P 10950 2250
-F 0 "R8" H 10980 2270 50  0000 L CNN
-F 1 "1K" H 10980 2210 50  0000 L CNN
-F 2 "Ph_Poncho:R_1206_HandSoldering" H 10950 2250 50  0001 C CNN
-F 3 "" H 10950 2250 50  0000 C CNN
-F 4 "Value" H 10950 2250 60  0001 C CNN "Digikey#"
-F 5 "Value" H 10950 2250 60  0001 C CNN "LibPart"
-F 6 "Value" H 10950 2250 60  0001 C CNN "Manf"
-F 7 "Value" H 10950 2250 60  0001 C CNN "Manf#"
-F 8 "Value" H 10950 2250 60  0001 C CNN "Mouser#"
-	1    10950 2250
-	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	2800 800  2800 1450
@@ -869,8 +687,6 @@ Wire Wire Line
 Connection ~ 10650 2450
 Wire Wire Line
 	10250 4050 10250 4150
-Wire Wire Line
-	9850 4150 10650 4150
 Connection ~ 10650 4150
 Wire Wire Line
 	10800 1350 10800 1650
@@ -881,8 +697,6 @@ Wire Wire Line
 Wire Wire Line
 	9000 1950 9000 1800
 Connection ~ 10250 4150
-Wire Wire Line
-	9650 4150 9350 4150
 Wire Notes Line
 	600  600  600  2450
 Wire Notes Line
@@ -934,10 +748,6 @@ Wire Wire Line
 Connection ~ 5250 3300
 Connection ~ 5650 3300
 Wire Wire Line
-	3100 5800 4150 5800
-Wire Wire Line
-	4300 6150 4300 5950
-Wire Wire Line
 	5450 3750 5350 3750
 Wire Wire Line
 	5350 3750 5350 3600
@@ -954,10 +764,6 @@ Wire Wire Line
 Connection ~ 5650 4500
 Wire Wire Line
 	6050 5250 5650 5250
-Wire Wire Line
-	9150 4150 9000 4150
-Wire Wire Line
-	9000 4150 9000 2050
 Connection ~ 9000 2050
 Connection ~ 5650 5250
 Wire Wire Line
@@ -967,8 +773,6 @@ Wire Wire Line
 	2800 1450 2650 1450
 Wire Wire Line
 	2650 1250 2800 1250
-Wire Wire Line
-	5500 4500 6050 4500
 Wire Notes Line
 	3300 650  3300 1450
 Wire Notes Line
@@ -990,11 +794,7 @@ Wire Wire Line
 Wire Wire Line
 	10950 3900 10950 2800
 Connection ~ 10650 3900
-Wire Wire Line
-	10950 1650 10950 2150
 Connection ~ 10800 1650
-Wire Wire Line
-	10950 2600 10950 2350
 Wire Notes Line
 	11150 1000 11150 4600
 Wire Notes Line
@@ -1018,7 +818,7 @@ Wire Wire Line
 Wire Wire Line
 	4300 6150 4050 6150
 Wire Wire Line
-	4300 5650 4300 5600
+	4300 5600 4300 6150
 Wire Wire Line
 	4300 3950 4300 5100
 Wire Wire Line
@@ -1050,11 +850,9 @@ Wire Wire Line
 Wire Wire Line
 	6350 3400 6800 3400
 Wire Wire Line
-	6050 4500 6050 4650
-Wire Wire Line
 	5650 5350 5650 5050
 Wire Wire Line
-	6050 5250 6050 5050
+	6050 5000 6050 5250
 Wire Wire Line
 	4300 4950 3900 4950
 Wire Wire Line
@@ -1079,11 +877,176 @@ U 1 1 59515A81
 P 2100 1400
 F 0 "U1" H 2100 1100 60  0000 C CNN
 F 1 "LMC7660" H 2100 1700 60  0000 C CNN
-F 2 "" H 2100 1400 60  0000 C CNN
-F 3 "" H 2100 1400 60  0000 C CNN
+F 2 "Ph_Poncho:SOIC-8-N" H 2100 1400 60  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lmc7660.pdf" H 2100 1400 60  0001 C CNN
+F 4 "LMC7660IMX/NOPBCT-ND " H 2100 1400 60  0001 C CNN "Digikey#"
+F 5 "Value" H 2100 1400 60  0001 C CNN "LibPart"
+F 6 "LMC7660IMX/NOPB " H 2100 1400 60  0001 C CNN "Manf"
+F 7 "Value" H 2100 1400 60  0001 C CNN "Manf#"
+F 8 "LMC7660IMX/NOPB" H 2100 1400 60  0001 C CNN "Mouser#"
 	1    2100 1400
 	1    0    0    -1  
 $EndComp
-NoConn ~ 6000 4200
-NoConn ~ 6150 3450
+Wire Wire Line
+	10250 4150 10650 4150
+Wire Wire Line
+	3100 5800 4300 5800
+Connection ~ 4300 5800
+Wire Wire Line
+	4250 3750 4100 3750
+Wire Wire Line
+	4100 4050 4600 4050
+Wire Wire Line
+	4600 4050 4600 3750
+Wire Wire Line
+	4600 3750 4550 3750
+$Comp
+L VEE #PWR022
+U 1 1 596B0557
+P 4400 3500
+F 0 "#PWR022" H 4400 3350 50  0001 C CNN
+F 1 "VEE" H 4400 3650 50  0000 C CNN
+F 2 "" H 4400 3500 50  0000 C CNN
+F 3 "" H 4400 3500 50  0000 C CNN
+	1    4400 3500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4400 3600 4400 3500
+$Comp
+L CP1 C5
+U 1 1 596B9F32
+P 2800 1750
+F 0 "C5" H 2825 1850 50  0000 L CNN
+F 1 "100uF" H 2825 1650 50  0000 L CNN
+F 2 "Ph_Poncho:CP_Elec_6.3x4.5" H 2800 1750 50  0001 C CNN
+F 3 "http://nichicon-us.com/english/products/pdfs/e-uwt.pdf" H 2800 1750 50  0001 C CNN
+F 4 "493-2203-1-ND " H 2800 1750 60  0001 C CNN "Digikey#"
+F 5 "Value" H 2800 1750 60  0001 C CNN "LibPart"
+F 6 "Nichicon" H 2800 1750 60  0001 C CNN "Manf"
+F 7 "UWT1V101MCL1GS " H 2800 1750 60  0001 C CNN "Manf#"
+F 8 "UWT1V101MCL1GS " H 2800 1750 60  0001 C CNN "Mouser#"
+	1    2800 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R6
+U 1 1 596BBA14
+P 6100 3400
+F 0 "R6" V 6180 3400 50  0000 C CNN
+F 1 "30K" V 6100 3400 50  0000 C CNN
+F 2 "Ph_Poncho:R_1206_HandSoldering" V 6030 3400 50  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/447/PYu-RC1206_51_RoHS_L-4-349080.pdf" H 6100 3400 50  0001 C CNN
+F 4 "311-30KERCT-ND " H 6100 3400 60  0001 C CNN "Digikey#"
+F 5 "Value" H 6100 3400 60  0001 C CNN "LibPart"
+F 6 "Yageo" H 6100 3400 60  0001 C CNN "Manf"
+F 7 " RC1206JR-0730KL " H 6100 3400 60  0001 C CNN "Manf#"
+F 8 "603-RC1206JR-0730KL " H 6100 3400 60  0001 C CNN "Mouser#"
+	1    6100 3400
+	0    1    1    0   
+$EndComp
+$Comp
+L C C9
+U 1 1 596BE3F0
+P 5250 2800
+F 0 "C9" H 5275 2900 50  0000 L CNN
+F 1 "10nF" H 5275 2700 50  0000 L CNN
+F 2 "Ph_Poncho:C_1206_HandSoldering" H 5288 2650 50  0001 C CNN
+F 3 "" H 5250 2800 50  0000 C CNN
+F 4 "490-1754-2-ND" H 5250 2800 60  0001 C CNN "Digikey#"
+F 5 "Value" H 5250 2800 60  0001 C CNN "LibPart"
+F 6 "Murata Electronics" H 5250 2800 60  0001 C CNN "Manf"
+F 7 "GRM3195C1H103JA01D" H 5250 2800 60  0001 C CNN "Manf#"
+F 8 "81-GRM3195C1H103JA01 " H 5250 2800 60  0001 C CNN "Mouser#"
+	1    5250 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C10
+U 1 1 596BE9CE
+P 5650 2800
+F 0 "C10" H 5675 2900 50  0000 L CNN
+F 1 "100uF" H 5675 2700 50  0000 L CNN
+F 2 "Ph_Poncho:C_1206_HandSoldering" H 5688 2650 50  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/281/GRM31CR60J107KE39-01-1065044.pdf" H 5650 2800 50  0001 C CNN
+F 4 "490-13982-1-ND" H 5650 2800 60  0001 C CNN "Digikey#"
+F 5 "Value" H 5650 2800 60  0001 C CNN "LibPart"
+F 6 "Murata Electronics North America" H 5650 2800 60  0001 C CNN "Manf"
+F 7 "GRM31CR60J107KE39L" H 5650 2800 60  0001 C CNN "Manf#"
+F 8 "81-GRM31CR60J107KE9L" H 5650 2800 60  0001 C CNN "Mouser#"
+	1    5650 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C12
+U 1 1 596BEA8F
+P 6050 4800
+F 0 "C12" H 6075 4900 50  0000 L CNN
+F 1 "100uF" H 6075 4700 50  0000 L CNN
+F 2 "Ph_Poncho:C_1206_HandSoldering" H 6088 4650 50  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/281/GRM31CR60J107KE39-01-1065044.pdf" H 6050 4800 50  0001 C CNN
+F 4 "490-13982-1-ND" H 6050 4800 60  0001 C CNN "Digikey#"
+F 5 "Value" H 6050 4800 60  0001 C CNN "LibPart"
+F 6 "Murata Electronics North America" H 6050 4800 60  0001 C CNN "Manf"
+F 7 "GRM31CR60J107KE39L" H 6050 4800 60  0001 C CNN "Manf#"
+F 8 "81-GRM31CR60J107KE9L" H 6050 4800 60  0001 C CNN "Mouser#"
+	1    6050 4800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6050 4600 6050 4500
+Wire Wire Line
+	6050 4500 5650 4500
+$Comp
+L C C11
+U 1 1 596BF296
+P 5650 4850
+F 0 "C11" H 5675 4950 50  0000 L CNN
+F 1 "10nF" H 5675 4750 50  0000 L CNN
+F 2 "Ph_Poncho:C_1206_HandSoldering" H 5688 4700 50  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/281/c02e-2905.pdf" H 5650 4850 50  0001 C CNN
+F 4 "490-1754-2-ND" H 5650 4850 60  0001 C CNN "Digikey#"
+F 5 "Value" H 5650 4850 60  0001 C CNN "LibPart"
+F 6 "Murata Electronics" H 5650 4850 60  0001 C CNN "Manf"
+F 7 "GRM3195C1H103JA01D" H 5650 4850 60  0001 C CNN "Manf#"
+F 8 "81-GRM3195C1H103JA01 " H 5650 4850 60  0001 C CNN "Mouser#"
+	1    5650 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C8
+U 1 1 596BFA53
+P 3700 4950
+F 0 "C8" H 3725 5050 50  0000 L CNN
+F 1 "1uF" H 3725 4850 50  0000 L CNN
+F 2 "Ph_Poncho:C_1206_HandSoldering" H 3738 4800 50  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/212/KEM_C1002_X7R_SMD-1102033.pdf" H 3700 4950 50  0001 C CNN
+F 4 "399-9309-2-ND" H 3700 4950 60  0001 C CNN "Digikey#"
+F 5 "Value" H 3700 4950 60  0001 C CNN "LibPart"
+F 6 "KEMET" H 3700 4950 60  0001 C CNN "Manf"
+F 7 "C1206C106J4RACTU" H 3700 4950 60  0001 C CNN "Manf#"
+F 8 "80-C1206C106J4R " H 3700 4950 60  0001 C CNN "Mouser#"
+	1    3700 4950
+	0    1    1    0   
+$EndComp
+$Comp
+L R R7
+U 1 1 596C0823
+P 10950 2300
+F 0 "R7" V 11030 2300 50  0000 C CNN
+F 1 "1K" V 10950 2300 50  0000 C CNN
+F 2 "Ph_Poncho:R_1206_HandSoldering" V 10880 2300 50  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/447/PYu-RC0402_51_RoHS_L_6_r-8721.pdf" H 10950 2300 50  0001 C CNN
+F 4 "311-1.0KJRCT-ND " H 10950 2300 60  0001 C CNN "Digikey#"
+F 5 "Value" H 10950 2300 60  0001 C CNN "LibPart"
+F 6 "Yageo" H 10950 2300 60  0001 C CNN "Manf"
+F 7 "RC0402JR-071KL " H 10950 2300 60  0001 C CNN "Manf#"
+F 8 "Value" H 10950 2300 60  0001 C CNN "Mouser#"
+	1    10950 2300
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	10950 1650 10950 2050
+Wire Wire Line
+	10950 2600 10950 2550
 $EndSCHEMATC
